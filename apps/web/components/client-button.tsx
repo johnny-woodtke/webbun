@@ -4,7 +4,7 @@ import { Button } from "@webbun/ui";
 
 export default function ClientButton() {
   return (
-    <Button variant="default" size="default" onClick={() => alert("Hello!")}>
+    <Button variant="destructive" size="lg" onClick={() => alert("Hello!")}>
       Open alert
     </Button>
   );
