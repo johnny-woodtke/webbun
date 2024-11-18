@@ -1,0 +1,8 @@
+{
+  "extends": "@webbun/typescript-config/react-library.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src", "turbo", "./tailwind.config.mjs", "./postcss.config.mjs"],
+  "exclude": ["node_modules", "dist"]
+}

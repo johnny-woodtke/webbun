@@ -1,0 +1,41 @@
+{
+  "name": "@webbun/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rm -rf .turbo .next",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "^1.1.3",
+    "@webbun/lib": "*",
+    "@webbun/server": "*",
+    "@webbun/ui": "*",
+    "elysia": "latest",
+    "next": "14.2.3",
+    "next-themes": "^0.4.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "class-variance-authority": "^0.7.0",
+    "lucide-react": "^0.460.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@webbun/eslint-config": "*",
+    "@webbun/typescript-config": "*",
+    "@types/node": "^20",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "@types/bun": "latest",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "typescript": "5.5.4",
+    "tailwindcss": "^3.4.15",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20"
+  }
+}
