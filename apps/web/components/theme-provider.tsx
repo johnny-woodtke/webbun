@@ -1,10 +1,5 @@
 "use client";
 
-import { ThemeProvider as NextThemesProvider } from "next-themes";
-
-import { Moon, Sun } from "lucide-react";
-import { useTheme } from "next-themes";
-
 import { Button } from "@webbun/ui";
 import {
   DropdownMenu,
@@ -12,6 +7,9 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@webbun/ui";
+import { Moon, Sun } from "lucide-react";
+import { ThemeProvider as NextThemesProvider } from "next-themes";
+import { useTheme } from "next-themes";
 
 export function ThemeProvider({
   children,

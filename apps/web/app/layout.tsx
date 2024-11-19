@@ -1,11 +1,11 @@
 import { cn } from "@webbun/lib";
-import localFont from "next/font/local";
-import type { Metadata } from "next";
 import "@webbun/ui/globals.css";
 import "globals.css";
+import type { Metadata } from "next";
+import localFont from "next/font/local";
 
-import { ModeToggle } from "@/components/theme-provider";
 import Providers from "@/components/providers";
+import { ModeToggle } from "@/components/theme-provider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
