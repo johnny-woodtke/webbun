@@ -1,11 +1,6 @@
 /** @type {import("prettier").Config} */
 const config = {
-  importOrder: [
-    "<THIRD_PARTY_MODULES>",
-    "^@webbun/(.*)$",
-    "^@/(.*)$",
-    "^[./]",
-  ],
+  importOrder: ["<THIRD_PARTY_MODULES>", "^@webbun/(.*)$", "^@/(.*)$", "^[./]"],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   plugins: [
