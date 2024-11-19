@@ -1,7 +1,8 @@
 import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu";
-import { cn } from "@webbun/lib";
 import { Check, ChevronRight, Circle } from "lucide-react";
 import { forwardRef } from "react";
+
+import { cn } from "@webbun/lib";
 
 const DropdownMenu = DropdownMenuPrimitive.Root;
 
