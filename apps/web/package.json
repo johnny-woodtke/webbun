@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3001",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -27,8 +27,8 @@
   "prettier": "@webbun/prettier-config",
   "devDependencies": {
     "@webbun/eslint-config": "*",
-    "@webbun/typescript-config": "*",
     "@webbun/prettier-config": "*",
+    "@webbun/typescript-config": "*",
     "@tanstack/eslint-plugin-query": "^5.60.1",
     "@types/bun": "latest",
     "@types/node": "^20",
